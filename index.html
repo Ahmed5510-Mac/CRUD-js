@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="contaner">
+        <header>
+            <div class="circle">
+                <span></span><span></span><span></span>
+            </div>
+            <h1>Products</h1>
+        </header>
+        <div class="section-1">
+            <div class="product-iputs">
+                <!-- ------------ -->
+                <div class="product-name">
+                    <label for="ProductName">Product Name</label>
+                    <input type="text" id="ProductName">
+                </div>
+                
+                <!-- ------------ -->
+                <div class="product-price">
+                    <label for="ProductPrice">Product price</label>
+                    <input type="number" id="ProductPrice">
+                </div>
+               
+                  <!-- ------------ -->
+                  <div class="product-Type">
+                    <label for="ProductType">Product Type</label>
+                    <input type="text" id="ProductType">
+                </div> 
+               
+                   <!-- ------------ -->
+                   <div class="product-Details">
+                    <label for="ProductDetailse">Product Details</label>
+                    <input type="text" id="ProductDetailse">
+                </div>
+            </div>
+            <button onclick="getValue();" class="Add">Add</button>
+        </div>
+        <br>
+        <!-- ================================================== -->
+        <div class="search">
+                <input type="text" placeholder="Search">
+        </div>
+        <!-- ================================================== -->
+        <div class="section-2">
+        <table border="1">
+            <thead>
+                <th>id</th>
+                <th>product Name</th>
+                <th>product Price</th>
+                <th>product Type</th>
+                <th>product Detailse</th>
+                <th>product operation</th>
+            </thead>
+            <tbody id="tableBody">
+             
+            
+            </tbody>
+        </table>
+        </div>
+        
+    </div>
+
+    <script src="js/file.js"></script>
+</body>
+</html>
+
+
